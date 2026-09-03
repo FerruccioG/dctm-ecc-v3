@@ -1,0 +1,17 @@
+# Agent runtime/session state may contain credentials or private artifacts.
+# Keep the project skills, ignore anything else later created under .agents/.
+.agents/*
+!.agents/skills/
+!.agents/skills/**
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python/runtime
+.venv/
+__pycache__/
+*.py[cod]
