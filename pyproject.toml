@@ -1,0 +1,10 @@
+[project]
+name = "dctm-ecc-v3"
+version = "0.1.0"
+requires-python = ">=3.13.15,<3.14"
+dependencies = [
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "sqlcipher3>=0.6.2",
+    "uvicorn>=0.52.4",
+]
