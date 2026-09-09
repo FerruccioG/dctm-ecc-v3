@@ -4,7 +4,7 @@
 
 **Created**: 2026-09-03
 
-**Status**: Draft
+**Status**: Approved — Frozen V1 Baseline
 
 **Input**: User description: "Create the baseline product specification for DCTM V1 Experience: an emotionally powerful, disclosed AI-inference entertainment experience that begins with one human and one character and can evolve into an intimate multi-character encounter."
 
