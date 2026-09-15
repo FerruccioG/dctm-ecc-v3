@@ -15,7 +15,7 @@
 - [x] T001 Record the Sprint 1 Increment 1 scope allowlist, explicit Increment 2+ exclusions, frozen-authority hashes, and baseline commit `d2bcc50` in `evidence/increment-1/scope-manifest.md`
 - [x] T002 Add a Gate Zero preflight that verifies Python 3.13, pytest, Pydantic 2, SQLCipher, SQLAlchemy 2 Core, and Alembic resolve at the already-certified pins and exits BLOCKED without installing or upgrading anything in `tests/conftest.py`
 - [x] T003 Create the inward-dependency Python package boundaries with empty package initializers under `packages/dctm/domain/__init__.py`, `packages/dctm/application/__init__.py`, and `packages/dctm/infrastructure/__init__.py`
-- [ ] T004 [P] Create the Sprint 1 test package layout with empty package initializers under `tests/architecture/__init__.py`, `tests/contract/__init__.py`, `tests/unit/__init__.py`, `tests/property/__init__.py`, `tests/integration/__init__.py`, `tests/fault_injection/__init__.py`, and `tests/recovery/__init__.py`
+- [x] T004 [P] Create the Sprint 1 test package layout with empty package initializers under `tests/architecture/__init__.py`, `tests/contract/__init__.py`, `tests/unit/__init__.py`, `tests/property/__init__.py`, `tests/integration/__init__.py`, `tests/fault_injection/__init__.py`, and `tests/recovery/__init__.py`
 - [ ] T005 Define deterministic UUID, clock, and recovery-epoch test doubles without runtime/provider dependencies in `tests/doubles/kernel.py`
 
 **Checkpoint**: Scope and certified-toolchain preflight are explicit; no runtime feature exists.
