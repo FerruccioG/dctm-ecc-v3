@@ -28,7 +28,7 @@
 
 ### Tests first
 
-- [ ] T006 [P] Add architecture tests rejecting framework, ORM, provider, UI, model, tool, and infrastructure imports from domain modules in `tests/architecture/test_domain_dependencies.py`
+- [x] T006 [P] Add architecture tests rejecting framework, ORM, provider, UI, model, tool, and infrastructure imports from domain modules in `tests/architecture/test_domain_dependencies.py`
 - [ ] T007 [P] Add architecture tests rejecting persistence writes outside `packages/dctm/application/canonical_commit.py` and its persistence port adapter in `tests/architecture/test_single_writer.py`
 - [ ] T008 [P] Add architecture tests rejecting direct canonical-state mutation entry points from UI, model, tool, delivery, and infrastructure namespaces in `tests/architecture/test_canonical_mutation_boundaries.py`
 - [ ] T009 [P] Add command-envelope contract tests for schema version, immutable IDs, principal/capability, operation, aggregate and expected version, idempotency, scope, correlation, causation, policy version, and recovery epoch in `tests/contract/test_command_v1.py`
